@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to bottom, hsl(217, 54%, 11%), hsl(216, 50%, 16%));
+    height: 100vh;
+}
+.contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+    width: 25em;
+    height: 41.25em;
+    border-radius: 50px;
+}
+.nft-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(216, 50%, 16%);
+    width: 21.75em;
+    height: 37em;
+    /* padding: 10px; */
+    border-radius: 25px;
+}
+.content {
+    width: 18.75em;
+    height: 34em;
+}
+.content img{
+    width: 18.75em;
+    height: 18.75em;
+    border-radius: 15px;
+}
+.name{
+    /* margin: 30px 0 30px 0; */
+    font-size: 18px;
+    font: 600;
+}
+.discription{
+    /* padding-bottom: 30px; */
+    font: 300;
+    color: hsl(215, 51%, 70%);
+}
+.price-time {
+    display: flex;
+}
+.price-time img{
+    height: 20px;
+    width: 10px;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.creator{
+    display: flex;
+}
+.creator img{
+    height: 2em;
+    width: 2em;
+}
