@@ -41,30 +41,42 @@ body {
     border-radius: 15px;
 }
 .name{
-    /* margin: 30px 0 30px 0; */
-    font-size: 18px;
+    padding: 30px 0 30px 0;
+    font-size: 22px;
     font: 600;
 }
 .discription{
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
     font: 300;
     color: hsl(215, 51%, 70%);
 }
 .price-time {
     display: flex;
+    padding-bottom: 28px;
 }
 .price-time img{
     height: 20px;
     width: 10px;
+    padding-right: 5px;
 }
 .price{
     color: hsl(178, 100%, 50%);
+    padding-right: 120px;
 }
 
 .creator{
     display: flex;
+    /* padding: 10px 10px 0 0; */
 }
 .creator img{
     height: 2em;
     width: 2em;
+    padding: 15px 15px 0 0;
+}
+.creator-name{
+    padding-top: 20px;
+    color: hsl(215, 51%, 70%);
+}
+.creator-name span{
+    color: white;
 }
